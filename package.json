@@ -1,0 +1,18 @@
+{
+  "name": "sextend",
+  "version": "0.0.0",
+  "description": "Adds static variables to JS inheritance.",
+  "main": "sextend.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bengl/sextend.git"
+  },
+  "keywords": [
+    "inheritance"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "WTFPL"
+}
