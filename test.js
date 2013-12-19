@@ -17,3 +17,4 @@ function C(){}
 
 sextend(C, B);
 assert(C.q === "go");
+assert(C.prototype.a === 12345);
