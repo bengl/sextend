@@ -8,6 +8,8 @@ A.q = 54321;
 function B(){}
 sextend(B, A);
 
+assert(B.super_ === A);
+
 assert(B.q === 54321);
 B.q = "go";
 assert(B.q === "go");

@@ -5,7 +5,8 @@
   var sextend = function(ctor, superCtor) {
 
     if (superCtor) {
-      // Normal node inheritance (util.inherits), without super_
+      // Normal node inheritance (util.inherits)
+      ctor.super_ = superCtor;
       ctor.prototype = Object.create(superCtor.prototype, {
         constructor: {
           value: ctor,
