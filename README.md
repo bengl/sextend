@@ -1,12 +1,12 @@
 # sextend
 
-__sextend__ ("super extend") allows you to to do inheritance in JavaScript *and* in much the same manner as `util.inherits` in Node.js, except now you also inherit static variables too! Isn't that cool?
+__sextend__ ("super extend") allows you to to do inheritance in JavaScript *and* in much the same manner as `util.inherits` in Node.js, except now you also inherit class variables too! Isn't that cool?
 
 For further awesome, you can also add mixins at the same time!
 
 ## Usage
 
-For extending, just use it like you would use `util.extend` in node.js.
+For extending, just use it like you would use `util.inherits` in node.js.
 
 In node:
 ```javascript
