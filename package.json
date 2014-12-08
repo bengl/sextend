@@ -4,7 +4,7 @@
   "description": "Adds static variables to JS inheritance.",
   "main": "sextend.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test | faucet"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,9 @@
     "inheritance"
   ],
   "author": "Bryan English <bryan@bryanenglish.com>",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^3.0.3"
+  }
 }
