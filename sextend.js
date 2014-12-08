@@ -5,9 +5,9 @@ module.exports = function sextend (ctor, superCtor) {
     ctor.prototype = Object.create(superCtor.prototype, {
       constructor: {
         value: ctor,
-      enumerable: false,
-      writable: true,
-      configurable: true
+        enumerable: false,
+        writable: true,
+        configurable: true
       }
     });
 
@@ -15,6 +15,7 @@ module.exports = function sextend (ctor, superCtor) {
     ctor.__proto__ = superCtor;
   }
 
+  // Functional mixins
   if (arguments.length > 2) {
     var mixins = [].slice.call(arguments, 2);
     for (var i=0; i < mixins.length; ++i) {
