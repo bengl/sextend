@@ -1,6 +1,6 @@
 {
   "name": "sextend",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Adds static variables to JS inheritance.",
   "main": "sextend.js",
   "scripts": {
